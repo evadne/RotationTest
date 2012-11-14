@@ -1,0 +1,6 @@
+[submodule "External/RASchedulingKit"]
+	path = External/RASchedulingKit
+	url = git://github.com/evadne/RASchedulingKit.git
+[submodule "External/RAReactionKit"]
+	path = External/RAReactionKit
+	url = git://github.com/evadne/RAReactionKit.git

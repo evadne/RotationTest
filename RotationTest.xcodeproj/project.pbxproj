@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF494E2C165441AC00C7921F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF494E2B165441AC00C7921F /* UIKit.framework */; };
+		FF494E2E165441AC00C7921F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF494E2D165441AC00C7921F /* Foundation.framework */; };
+		FF494E30165441AC00C7921F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF494E2F165441AC00C7921F /* CoreGraphics.framework */; };
+		FF494E36165441AC00C7921F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF494E34165441AC00C7921F /* InfoPlist.strings */; };
+		FF494E38165441AC00C7921F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E37165441AC00C7921F /* main.m */; };
+		FF494E3C165441AC00C7921F /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E3B165441AC00C7921F /* RAAppDelegate.m */; };
+		FF494E3E165441AC00C7921F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF494E3D165441AC00C7921F /* Default.png */; };
+		FF494E40165441AC00C7921F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF494E3F165441AC00C7921F /* Default@2x.png */; };
+		FF494E42165441AC00C7921F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF494E41165441AC00C7921F /* Default-568h@2x.png */; };
+		FF494E4A1654428D00C7921F /* RAThreeKnobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E491654428D00C7921F /* RAThreeKnobsViewController.m */; };
+		FF494E4D1654429B00C7921F /* RADraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E4C1654429B00C7921F /* RADraggableView.m */; };
+		FF494E50165448BD00C7921F /* RAConnectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E4F165448BD00C7921F /* RAConnectorView.m */; };
+		FF494E7B16544E5E00C7921F /* libRAReactionKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF494E7616544E3D00C7921F /* libRAReactionKit.a */; };
+		FF494E7C16544E5E00C7921F /* libRASchedulingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF494E6A16544E3A00C7921F /* libRASchedulingKit.a */; };
+		FF494E7F1654710800C7921F /* RAGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E7E1654710800C7921F /* RAGeometry.m */; };
+		FF494E931654955E00C7921F /* RASingleFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF494E921654955E00C7921F /* RASingleFingerRotationGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF494E6916544E3A00C7921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF494E6116544E3A00C7921F /* RASchedulingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFF652C816265F64003191EC;
+			remoteInfo = RASchedulingKit;
+		};
+		FF494E6B16544E3A00C7921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF494E6116544E3A00C7921F /* RASchedulingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF6F1E2216275B2A002151DA;
+			remoteInfo = RASchedulingKitTest;
+		};
+		FF494E7516544E3D00C7921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF494E6E16544E3D00C7921F /* RAReactionKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFF652A016265F07003191EC;
+			remoteInfo = RAReactionKit;
+		};
+		FF494E7716544E5200C7921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF494E6116544E3A00C7921F /* RASchedulingKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF652C716265F64003191EC;
+			remoteInfo = RASchedulingKit;
+		};
+		FF494E7916544E5200C7921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF494E6E16544E3D00C7921F /* RAReactionKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF6529F16265F07003191EC;
+			remoteInfo = RAReactionKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF494E27165441AC00C7921F /* RotationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF494E2B165441AC00C7921F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF494E2D165441AC00C7921F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF494E2F165441AC00C7921F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF494E33165441AC00C7921F /* RotationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotationTest-Info.plist"; sourceTree = "<group>"; };
+		FF494E35165441AC00C7921F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF494E37165441AC00C7921F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF494E39165441AC00C7921F /* RotationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotationTest-Prefix.pch"; sourceTree = "<group>"; };
+		FF494E3A165441AC00C7921F /* RAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAAppDelegate.h; path = RotationTest/RAAppDelegate.h; sourceTree = "<group>"; };
+		FF494E3B165441AC00C7921F /* RAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAAppDelegate.m; path = RotationTest/RAAppDelegate.m; sourceTree = "<group>"; };
+		FF494E3D165441AC00C7921F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF494E3F165441AC00C7921F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF494E41165441AC00C7921F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF494E481654428D00C7921F /* RAThreeKnobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAThreeKnobsViewController.h; path = RotationTest/RAThreeKnobsViewController.h; sourceTree = "<group>"; };
+		FF494E491654428D00C7921F /* RAThreeKnobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAThreeKnobsViewController.m; path = RotationTest/RAThreeKnobsViewController.m; sourceTree = "<group>"; };
+		FF494E4B1654429B00C7921F /* RADraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RADraggableView.h; path = RotationTest/RADraggableView.h; sourceTree = "<group>"; };
+		FF494E4C1654429B00C7921F /* RADraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RADraggableView.m; path = RotationTest/RADraggableView.m; sourceTree = "<group>"; };
+		FF494E4E165448BD00C7921F /* RAConnectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAConnectorView.h; path = RotationTest/RAConnectorView.h; sourceTree = "<group>"; };
+		FF494E4F165448BD00C7921F /* RAConnectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAConnectorView.m; path = RotationTest/RAConnectorView.m; sourceTree = "<group>"; };
+		FF494E6116544E3A00C7921F /* RASchedulingKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RASchedulingKit.xcodeproj; path = External/RASchedulingKit/RASchedulingKit.xcodeproj; sourceTree = "<group>"; };
+		FF494E6E16544E3D00C7921F /* RAReactionKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RAReactionKit.xcodeproj; path = External/RAReactionKit/RAReactionKit.xcodeproj; sourceTree = "<group>"; };
+		FF494E7D1654710800C7921F /* RAGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAGeometry.h; path = RotationTest/RAGeometry.h; sourceTree = "<group>"; };
+		FF494E7E1654710800C7921F /* RAGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAGeometry.m; path = RotationTest/RAGeometry.m; sourceTree = "<group>"; };
+		FF494E911654955E00C7921F /* RASingleFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RASingleFingerRotationGestureRecognizer.h; path = RotationTest/RASingleFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		FF494E921654955E00C7921F /* RASingleFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RASingleFingerRotationGestureRecognizer.m; path = RotationTest/RASingleFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF494E24165441AC00C7921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF494E7B16544E5E00C7921F /* libRAReactionKit.a in Frameworks */,
+				FF494E7C16544E5E00C7921F /* libRASchedulingKit.a in Frameworks */,
+				FF494E30165441AC00C7921F /* CoreGraphics.framework in Frameworks */,
+				FF494E2E165441AC00C7921F /* Foundation.framework in Frameworks */,
+				FF494E2C165441AC00C7921F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF494E1C165441AC00C7921F = {
+			isa = PBXGroup;
+			children = (
+				FF494E3A165441AC00C7921F /* RAAppDelegate.h */,
+				FF494E3B165441AC00C7921F /* RAAppDelegate.m */,
+				FF494E481654428D00C7921F /* RAThreeKnobsViewController.h */,
+				FF494E491654428D00C7921F /* RAThreeKnobsViewController.m */,
+				FF494E4B1654429B00C7921F /* RADraggableView.h */,
+				FF494E4C1654429B00C7921F /* RADraggableView.m */,
+				FF494E4E165448BD00C7921F /* RAConnectorView.h */,
+				FF494E4F165448BD00C7921F /* RAConnectorView.m */,
+				FF494E7D1654710800C7921F /* RAGeometry.h */,
+				FF494E7E1654710800C7921F /* RAGeometry.m */,
+				FF494E911654955E00C7921F /* RASingleFingerRotationGestureRecognizer.h */,
+				FF494E921654955E00C7921F /* RASingleFingerRotationGestureRecognizer.m */,
+				FF494E32165441AC00C7921F /* Supporting Files */,
+				FF494E2A165441AC00C7921F /* Frameworks */,
+				FF494E28165441AC00C7921F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF494E28165441AC00C7921F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF494E27165441AC00C7921F /* RotationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF494E2A165441AC00C7921F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF494E6E16544E3D00C7921F /* RAReactionKit.xcodeproj */,
+				FF494E6116544E3A00C7921F /* RASchedulingKit.xcodeproj */,
+				FF494E2F165441AC00C7921F /* CoreGraphics.framework */,
+				FF494E2D165441AC00C7921F /* Foundation.framework */,
+				FF494E2B165441AC00C7921F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF494E32165441AC00C7921F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF494E33165441AC00C7921F /* RotationTest-Info.plist */,
+				FF494E34165441AC00C7921F /* InfoPlist.strings */,
+				FF494E37165441AC00C7921F /* main.m */,
+				FF494E39165441AC00C7921F /* RotationTest-Prefix.pch */,
+				FF494E3D165441AC00C7921F /* Default.png */,
+				FF494E3F165441AC00C7921F /* Default@2x.png */,
+				FF494E41165441AC00C7921F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = RotationTest;
+			sourceTree = "<group>";
+		};
+		FF494E6216544E3A00C7921F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF494E6A16544E3A00C7921F /* libRASchedulingKit.a */,
+				FF494E6C16544E3A00C7921F /* RASchedulingKitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF494E6F16544E3D00C7921F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF494E7616544E3D00C7921F /* libRAReactionKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF494E26165441AC00C7921F /* RotationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF494E45165441AC00C7921F /* Build configuration list for PBXNativeTarget "RotationTest" */;
+			buildPhases = (
+				FF494E23165441AC00C7921F /* Sources */,
+				FF494E24165441AC00C7921F /* Frameworks */,
+				FF494E25165441AC00C7921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF494E7A16544E5200C7921F /* PBXTargetDependency */,
+				FF494E7816544E5200C7921F /* PBXTargetDependency */,
+			);
+			name = RotationTest;
+			productName = RotationTest;
+			productReference = FF494E27165441AC00C7921F /* RotationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF494E1E165441AC00C7921F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Radius;
+			};
+			buildConfigurationList = FF494E21165441AC00C7921F /* Build configuration list for PBXProject "RotationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF494E1C165441AC00C7921F;
+			productRefGroup = FF494E28165441AC00C7921F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF494E6F16544E3D00C7921F /* Products */;
+					ProjectRef = FF494E6E16544E3D00C7921F /* RAReactionKit.xcodeproj */;
+				},
+				{
+					ProductGroup = FF494E6216544E3A00C7921F /* Products */;
+					ProjectRef = FF494E6116544E3A00C7921F /* RASchedulingKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF494E26165441AC00C7921F /* RotationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF494E6A16544E3A00C7921F /* libRASchedulingKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRASchedulingKit.a;
+			remoteRef = FF494E6916544E3A00C7921F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF494E6C16544E3A00C7921F /* RASchedulingKitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RASchedulingKitTest.octest;
+			remoteRef = FF494E6B16544E3A00C7921F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF494E7616544E3D00C7921F /* libRAReactionKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRAReactionKit.a;
+			remoteRef = FF494E7516544E3D00C7921F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF494E25165441AC00C7921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF494E36165441AC00C7921F /* InfoPlist.strings in Resources */,
+				FF494E3E165441AC00C7921F /* Default.png in Resources */,
+				FF494E40165441AC00C7921F /* Default@2x.png in Resources */,
+				FF494E42165441AC00C7921F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF494E23165441AC00C7921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF494E38165441AC00C7921F /* main.m in Sources */,
+				FF494E3C165441AC00C7921F /* RAAppDelegate.m in Sources */,
+				FF494E4A1654428D00C7921F /* RAThreeKnobsViewController.m in Sources */,
+				FF494E4D1654429B00C7921F /* RADraggableView.m in Sources */,
+				FF494E50165448BD00C7921F /* RAConnectorView.m in Sources */,
+				FF494E7F1654710800C7921F /* RAGeometry.m in Sources */,
+				FF494E931654955E00C7921F /* RASingleFingerRotationGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF494E7816544E5200C7921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RASchedulingKit;
+			targetProxy = FF494E7716544E5200C7921F /* PBXContainerItemProxy */;
+		};
+		FF494E7A16544E5200C7921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAReactionKit;
+			targetProxy = FF494E7916544E5200C7921F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF494E34165441AC00C7921F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF494E35165441AC00C7921F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF494E43165441AC00C7921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/External/RAReactionKit/RAReactionKit",
+					"$(PROJECT_DIR)/External/RASchedulingKit/RASchedulingKit",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF494E44165441AC00C7921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/External/RAReactionKit/RAReactionKit",
+					"$(PROJECT_DIR)/External/RASchedulingKit/RASchedulingKit",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF494E46165441AC00C7921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationTest/RotationTest-Prefix.pch";
+				INFOPLIST_FILE = "RotationTest/RotationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF494E47165441AC00C7921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationTest/RotationTest-Prefix.pch";
+				INFOPLIST_FILE = "RotationTest/RotationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF494E21165441AC00C7921F /* Build configuration list for PBXProject "RotationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF494E43165441AC00C7921F /* Debug */,
+				FF494E44165441AC00C7921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF494E45165441AC00C7921F /* Build configuration list for PBXNativeTarget "RotationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF494E46165441AC00C7921F /* Debug */,
+				FF494E47165441AC00C7921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF494E1E165441AC00C7921F /* Project object */;
+}
